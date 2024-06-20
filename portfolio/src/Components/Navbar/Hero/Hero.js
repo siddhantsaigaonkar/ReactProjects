@@ -27,7 +27,14 @@ const Hero = () => {
           <div className="hero-connect">Connect with me</div>
         </AnchorLink>
 
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a
+            href="https://drive.google.com/uc?export=download&id=11MtI1moMUCuA40aHWtTMA9wLGLdm9FZh"
+            style={{ textDecoration: "none", marginLeft: "10px" }}
+          >
+          My resume
+          </a>
+        </div>
       </div>
     </div>
   );

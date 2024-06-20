@@ -4,13 +4,39 @@
   align-items: center;
   justify-content:center ;
   gap: 30px;
-  margin: 120px 170px;
+  margin: 120px 150px;
   padding-bottom: 50px;
 }
-.contact-title h1{
-  padding:  0px 10px;
-  font-size: 40px;
-  font-weight: 600;
+.contact-title{
+  /* background-color: #B415FF; */
+  width: 100%;
+  display: flex;
+justify-content:space-between;
+margin-right: 50px;
+}
+  .contact-title h1{
+    font-size: 40px;
+    font-weight: 600; 
+  }
+.icons ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.icons ul li{
+  font-size: 27px;
+  margin-top: 4px;
+}
+
+.icon-gradient {
+     color: #0077B5;
+}
+.icon {
+  transition: transform 0.4s ease; /* Smooth transition for the rotation */
+}
+
+.icon:hover {
+   transform: rotateY(180deg); /* Rotate the icon on hover */
 }
 .contact-section{
   display: flex;
@@ -92,6 +118,28 @@
 .contact-submit:hover{
   transform: scale(1.05);
   transition: 0.3s;  
+}
+
+.react-hot-toast {
+  width: auto !important;
+  padding: 16px !important;
+}
+
+.react-hot-toast__toast {
+  background: #333 !important;  /* Dark background */
+  color: #fff !important;       /* White text */
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  padding: 16px !important;
+}
+
+.react-hot-toast__toast-body {
+  font-size: 16px !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.react-hot-toast__progress-bar {
+  background: #007bff !important;  /* Blue progress bar */
 }
 
 @media(max-width:1122px){

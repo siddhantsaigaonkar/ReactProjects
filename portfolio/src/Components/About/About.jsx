@@ -26,8 +26,8 @@ const About = () => {
             <br />
             <div>
               I am passionate programmer and a learner, born and brought up in
-              Pakistan.Currently, I am enrolled in Tech Karo - Web Development
-              Program "Conducted by CIRCLE".
+              India.Currently, I am enrolled in FullStack - Web Development
+              Program "Conducted by AlmaBetter".
             </div>
             <br />
             <div>
